@@ -3,10 +3,27 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Gardener - Gardening Website Template</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="" name="keywords">
-    <meta content="" name="description">
+    <title>Intercontinental Well-Being Services (IWS) - Mental Health Advocacy & Research</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords"
+        content="Mental Health, Public Education, Corporate Wellness, Mental Health Research, Tanzania">
+    <meta name="description"
+        content="Intercontinental Well-Being Services (IWS) provides mental health education, research, and advocacy for corporations, schools, and peer groups in Tanzania and beyond.">
+
+    <!-- Open Graph Meta Tags for Social Sharing -->
+    <meta property="og:title" content="Intercontinental Well-Being Services (IWS) - Mental Health Advocacy & Research">
+    <meta property="og:description"
+        content="Enhancing mental health awareness through education, research, and corporate well-being initiatives in Tanzania and beyond.">
+    <meta property="og:image" content="img/website-preview.jpg">
+    <meta property="og:url" content="https://www.iws-tz.com">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Intercontinental Well-Being Services (IWS)">
+    <meta name="twitter:description"
+        content="Transforming mental health awareness through education, research, and advocacy.">
+    <meta name="twitter:image" content="img/website-preview.jpg">
 
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">
@@ -14,7 +31,9 @@
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600;700&family=Open+Sans:wght@400;500&display=swap" rel="stylesheet">  
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600;700&family=Open+Sans:wght@400;500&display=swap"
+        rel="stylesheet">
 
     <!-- Icon Font Stylesheet -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
@@ -30,11 +49,43 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Intercontinental Well-Being Services (IWS)",
+        "url": "https://iwsllimited.co.tz",
+        "logo": "https://iwsllimited.co.tz/img/logo.png",
+        "description": "Intercontinental Well-Being Services (IWS) focuses on mental health education, research, and corporate well-being advocacy in Tanzania and beyond.",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "65 Philemon St./Rafiki Rd, Bahari Beach",
+            "addressLocality": "Dar es Salaam",
+            "addressCountry": "TZ"
+        },
+        "contactPoint": [
+            {
+                "@type": "ContactPoint",
+                "telephone": "+255753535658",
+                "contactType": "customer service"
+            },
+            {
+                "@type": "ContactPoint",
+                "telephone": "+255745700081",
+                "contactType": "customer service"
+            }
+        ]
+    }
+    </script>
 </head>
+
 
 <body>
     <!-- Spinner Start -->
-    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
         <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;"></div>
     </div>
     <!-- Spinner End -->
@@ -46,11 +97,11 @@
             <div class="col-lg-7 px-5 text-start">
                 <div class="h-100 d-inline-flex align-items-center me-4">
                     <span class="fa fa-phone-alt me-2"></span>
-                    <span>+012 345 6789</span>
+                    <span>+255 753 535 658</span>
                 </div>
                 <div class="h-100 d-inline-flex align-items-center">
                     <span class="far fa-envelope me-2"></span>
-                    <span>info@example.com</span>
+                    <span>info@iwsllimited.co.tz</span>
                 </div>
             </div>
             <div class="col-lg-5 px-5 text-end">
@@ -70,30 +121,36 @@
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0">
         <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
-            <h1 class="m-0">Gardener</h1>
+            <img src="img/logo.png" alt="Gardener Logo" style="height: 250px;">
+        </a>
         </a>
         <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto p-4 p-lg-0">
-                <a href="index.html" class="nav-item nav-link">Home</a>
-                <a href="about.html" class="nav-item nav-link active">About</a>
-                <a href="service.html" class="nav-item nav-link">Services</a>
-                <a href="project.html" class="nav-item nav-link">Projects</a>
+                <a href="index.html" class="nav-item nav-link active">Home</a>
+                <a href="about.html" class="nav-item nav-link">About</a>
+                <!-- <a href="service.html" class="nav-item nav-link">Services</a> -->
+                <!-- <a href="project.html" class="nav-item nav-link">Projects</a> -->
                 <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Services</a>
                     <div class="dropdown-menu bg-light m-0">
-                        <a href="feature.html" class="dropdown-item">Features</a>
-                        <a href="quote.html" class="dropdown-item">Free Quote</a>
-                        <a href="team.html" class="dropdown-item">Our Team</a>
-                        <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-                        <a href="404.html" class="dropdown-item">404 Page</a>
+                        <a href="cws.html" class="dropdown-item">Corporate Wellness Solutions</a>
+                        <a href="school.html" class="dropdown-item">Schools Wellness Program</a>
+                        <a href="group.html" class="dropdown-item">Peer Group Programs </a>
+                        <a href="cs.html" class="dropdown-item">Councelling Services</a>
+                        <a href="retreat.html" class="dropdown-item">Wellness Retreat</a>
+                        <a href="dp.html" class="dropdown-item">Digital Platform</a>
                     </div>
                 </div>
                 <a href="contact.html" class="nav-item nav-link">Contact</a>
             </div>
-            <a href="" class="btn btn-primary py-4 px-lg-4 rounded-0 d-none d-lg-block">Get A Quote<i class="fa fa-arrow-right ms-3"></i></a>
+            <a href="https://wa.me/255753535658" target="_blank"
+                class="btn btn-primary py-4 px-lg-4 rounded-0 d-none d-lg-block">
+                Talk To Us <i class="fa fa-arrow-right ms-3"></i>
+            </a>
+
         </div>
     </nav>
     <!-- Navbar End -->
@@ -183,64 +240,87 @@
     <div class="container-xxl py-5">
         <div class="container">
             <div class="mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 700px;">
-        
             </div>
-    
+
             <div class="row">
-                <div class="col-lg-10 wow fadeInUp" data-wow-delay="0.2s">
+                <div class="col-lg-12 wow fadeInUp" data-wow-delay="0.2s">
+                    <h3 class="fw-bold mt-4 text-primary">ABOUT US</h3>
                     <p class="fs-5">
-                        <strong>Intercontinental Well-Being Services Limited (IWS)</strong> is a company that focuses on providing 
-                        public education, research, and advocacy on mental health to the community. We primarily support the corporate world, 
-                        education institutions, and peer groups, empowering individuals to lead healthy, meaningful lives while enhancing 
-                        economic agility in Tanzania and beyond.  
+                        <strong>Intercontinental Well-Being Services Limited (IWS)</strong> is a company that focuses on
+                        providing public education, research, and advocacy on mental health to the community, primarily
+                        to the corporate world, educational institutions, and peer groups. Our goal is to enable a
+                        healthy, meaningful life and economic agility in Tanzania and beyond.
                     </p>
-    
-                    <h3 class="fw-bold mt-4 text-primary">Current Situation on Mental Health</h3>
-                    
+
+                    <h4 class="fw-bold mt-4 text-primary">Current Situation on Mental Health</h4>
                     <p class="fs-5">
-                        Mental health and psychoactive substance-related disorders are widespread, affecting people of all backgrounds. 
-                        Nearly <strong>one in eight individuals</strong>, or close to <strong>one billion people</strong>, live with a mental disorder, 
-                        making these conditions the leading cause of disability worldwide.
+                        Mental health and psychoactive substance-related disorders are prevalent globally, affecting
+                        individuals of all backgrounds, ages, and socio-economic statuses.
                     </p>
-    
                     <p class="fs-5">
-                        Severe conditions like schizophrenia contribute to significantly reduced life expectancy, with individuals dying 
-                        <strong>10 to 20 years earlier</strong> due to preventable diseases. Alarmingly, only <strong>29% of people with psychosis</strong> 
-                        receive necessary mental health services globally.
+                        Approximately one in eight individuals, or nearly one billion people, live with a mental
+                        disorder, making these conditions the leading cause of years lived with disability (YLDs).
+                        Severe conditions, such as schizophrenia, significantly reduce life expectancy, with individuals
+                        often dying 10 to 20 years earlier due to preventable physical diseases.
                     </p>
-    
                     <p class="fs-5">
-                        Depression and anxiety are the most common mental health disorders, affecting <strong>13.5% of women</strong> and 
-                        <strong>12.5% of men</strong> worldwide. Women are more prone to these conditions, while men are more vulnerable to substance use disorders.
+                        Despite the high prevalence, a large portion of those with mental health conditions remain
+                        untreated. Only 29% of people with psychosis receive mental health services globally. Depression
+                        and anxiety are the most common disorders, affecting 13.5% of women and 12.5% of men worldwide,
+                        while substance use disorders are more prevalent among men.
                     </p>
-    
                     <p class="fs-5">
-                        Suicide remains a global crisis, especially among <strong>adolescents and young people</strong>. Tanzania has one of the highest 
-                        suicide rates in Africa, primarily affecting individuals aged <strong>15–29 years</strong>. Factors such as anxiety, depression, 
-                        and substance abuse play a significant role, while stigma, criminalization of suicide, and the absence of prevention helplines 
-                        discourage those in need from seeking help.
+                        Suicide is a leading cause of death, especially among adolescents and young people. Tanzania,
+                        which has one of the highest suicide rates in Africa, is particularly affected, with individuals
+                        aged 15–29 at the highest risk. Stigma, the criminalization of suicide, and the lack of suicide
+                        prevention helplines further discourage individuals from seeking help.
                     </p>
-    
                     <p class="fs-5">
-                        Despite global efforts, including the <strong>SDG target</strong> to reduce suicide mortality by one-third by 2030, suicide 
-                        remains responsible for <strong>over one in every 100 deaths</strong>.
+                        International efforts, including the Sustainable Development Goal (SDG) target to reduce suicide
+                        mortality by one-third by 2030, aim to address this crisis. However, suicide still accounts for
+                        over one in every 100 deaths globally.
                     </p>
-    
                     <p class="fs-5">
-                        In Tanzania, where <strong>over two-thirds of the population</strong> is under 24, mental health issues are worsened by stigma, 
-                        social exclusion, and inadequate healthcare resources. Low-income countries often exclude mental health care from national 
-                        health insurance schemes, leading to treatment gaps exceeding <strong>70%</strong> and insufficient resources to address 
-                        the mental illness crisis.
+                        In Tanzania, where over two-thirds of the population is under 24, mental health issues are
+                        compounded by stigma, social exclusion, and inadequate healthcare resources. Many low-income
+                        countries, including Tanzania, exclude mental health care from national health insurance
+                        schemes, leading to treatment gaps exceeding 70%.
                     </p>
+
+                    <h4 class="fw-bold mt-4 text-primary">Vision</h4>
+                    <p class="fs-5">
+                        To become the globe's most innovative wellness company by 2040.
+                    </p>
+
+                    <h4 class="fw-bold mt-4 text-primary">Mission</h4>
+                    <p class="fs-5">
+                        Our mission is to provide innovative wellness services to our clients through integrated
+                        products. We are dedicated to contributing to global efforts to reduce the impact of mental
+                        health issues while fostering a meaningful life and economic agility locally and beyond.
+                    </p>
+
+                    <h4 class="fw-bold mt-4 text-primary">Values</h4>
+                    <p class="fs-5">
+                        IWS believes in conducting all its operations with diligence and integrity, emphasizing:
+                    </p>
+                    <ul class="fs-5">
+                        <li>Inclusivity</li>
+                        <li>Accountability</li>
+                        <li>Commitment</li>
+                        <li>Flexibility</li>
+                        <li>Zero tolerance for human rights infringements or any form of violence, especially toward
+                            women and children</li>
+                        <li>Teamwork and action</li>
+                    </ul>
                 </div>
             </div>
-    
         </div>
     </div>
-    
-    
-    
+
+
+
     <!-- Team End -->
+
 
 
     <!-- Footer Start -->
@@ -249,38 +329,45 @@
             <div class="row g-5">
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-white mb-4">Our Office</h4>
-                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
-                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
-                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>65 Philemon Rafiki Road,
+                        Bahari Beach -Dar-es-Salaam- Tanzania</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+255 753 535 658</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i> info@iwslimited.co.tz</p>
                     <div class="d-flex pt-2">
-                        <a class="btn btn-square btn-outline-light rounded-circle me-2" href=""><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-square btn-outline-light rounded-circle me-2" href=""><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-square btn-outline-light rounded-circle me-2" href=""><i class="fab fa-youtube"></i></a>
-                        <a class="btn btn-square btn-outline-light rounded-circle me-2" href=""><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-square btn-outline-light rounded-circle me-2" href=""><i
+                                class="fab fa-twitter"></i></a>
+                        <a class="btn btn-square btn-outline-light rounded-circle me-2" href=""><i
+                                class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square btn-outline-light rounded-circle me-2" href=""><i
+                                class="fab fa-youtube"></i></a>
+                        <a class="btn btn-square btn-outline-light rounded-circle me-2" href=""><i
+                                class="fab fa-linkedin-in"></i></a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-white mb-4">Services</h4>
-                    <a class="btn btn-link" href="">Landscaping</a>
-                    <a class="btn btn-link" href="">Pruning plants</a>
-                    <a class="btn btn-link" href="">Urban Gardening</a>
-                    <a class="btn btn-link" href="">Garden Maintenance</a>
-                    <a class="btn btn-link" href="">Green Technology</a>
+                    <a class="btn btn-link" href="">Corporate Wellness Solutions</a>
+                    <a class="btn btn-link" href="">Schools Wellness Programcdp</a>
+                    <a class="btn btn-link" href="">Peer Group Programs</a>
+                    <a class="btn btn-link" href="">Councelling Services</a>
+                    <a class="btn btn-link" href="">Wellness Retreat</a>
+                    <a class="btn btn-link" href="">Digital Platform</a>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <h4 class="text-white mb-4">Quick Links</h4>
-                    <a class="btn btn-link" href="">About Us</a>
-                    <a class="btn btn-link" href="">Contact Us</a>
+                    <a class="btn btn-link" href="about.html">About Us</a>
+                    <a class="btn btn-link" href="contact.html">Contact Us</a>
                     <a class="btn btn-link" href="">Our Services</a>
-                    <a class="btn btn-link" href="">Terms & Condition</a>
-                    <a class="btn btn-link" href="">Support</a>
+
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-white mb-4">Newsletter</h4>
-                    <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+                    <p>Subscribe To Our Newsletter</p>
                     <div class="position-relative w-100">
-                        <input class="form-control bg-light border-light w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
-                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                        <input class="form-control bg-light border-light w-100 py-3 ps-4 pe-5" type="text"
+                            placeholder="Your email">
+                        <button type="button"
+                            class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">Subscribe
+                        </button>
                     </div>
                 </div>
             </div>
@@ -294,11 +381,12 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                    &copy; <a class="border-bottom" href="#">Your Site Name</a>, All Right Reserved.
+                    &copy; <a class="border-bottom" href="https://iwslimited.co.tz/">iwslimited.co.tz</a>, All Right
+                    Reserved.
                 </div>
                 <div class="col-md-6 text-center text-md-end">
                     <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-                    Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a> Distributed By <a href="https://themewagon.com">ThemeWagon</a>
+                    Designed & Developed By <a class="border-bottom" href="https://arifa.org/">ARIFA</a>
                 </div>
             </div>
         </div>
@@ -307,7 +395,8 @@
 
 
     <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i
+            class="bi bi-arrow-up"></i></a>
 
 
     <!-- JavaScript Libraries -->
